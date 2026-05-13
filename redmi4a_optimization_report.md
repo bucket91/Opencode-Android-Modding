@@ -1507,3 +1507,8 @@ Steps to recreate:
 
 Conclusion
 The entire process is mostly automated all you have to do is write some basic prompts and grant permissions. Be cautious of using Opencode's Plan and Build mode to avoid complications. This method reduces days of trial and errors to a few hours of Troubleshooting which is automated. All you have to do is ensure stable Wifi and electricity and leave the device connected to the computer. The rest of the process is just waiting for the ai to do its job. The only relevant input is you need to manually go to fastboot mode via harware keys when stuck in a boot loop. 
+
+Due to compaction I lost almost half a million tokens throughout the sessions so i couldnt add those on the sessionX.md files
+All necessary modules and packages can be found on the project_packages_and_modules.md file. if you provide your agentic AI towards this model it should hopefully avoid some mistakes.
+
+After all that optimization the device lost 14% charge on idle [Airplane Mode] over 100 hours. Not bad for a 10 year old device.
