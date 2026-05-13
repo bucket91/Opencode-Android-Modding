@@ -112,7 +112,7 @@ The phone arrived running AospExtended v6.7 but with a custom kernel (NgntdKerne
 | USB stability | Intermittent; 3 different cables tested |
 | `adb root` crash | Triggers Qualcomm crash dump mode (05c6:9091) |
 | TWRP USB | Disconnects ~13 seconds after boot |
-| Network | Heavily restricted; GitHub, CDNs blocked |
+| Network | Heavily restricted; GitHub, CDNs blocked [This was mainly due to an ISP side temporary issue on my end]|
 
 ---
 
