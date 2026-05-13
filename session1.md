@@ -8,55 +8,6 @@
 
 ## User
 
-how to set a 50/50 split screen on i3?
-
----
-
-## Assistant (Plan · Big Pickle · 8.6s)
-
-_Thinking:_
-
-The user is asking how to set a 50/50 split screen in the i3 window manager. This is a simple, well-known i3 configuration question. Let me provide a direct, concise answer.
-
-In i3, you typically use `$mod+v` for vertical split and `$mod+h` for horizontal split (or `split v` / `split h` commands). To get a 50/50 split:
-
-1. Position your windows (or use `layout toggle split` to ensure split layout isn't tabbed or stacked)
-2. By default, new windows in a split container get equal space.
-
-The key commands:
-- `$mod+v` - split vertically (windows stack top/bottom, each 50%)
-- `$mod+h` - split horizontally (windows side by side, each 50%)
-
-If you mean setting a default 50/50 split upon launching, you can add to your i3 config:
-```
-workspace 1 layout splith
-```
-
-Or to enforce equal sizing, use:
-```
-layout default split
-```
-
-But actually, the simplest answer is: just use `$mod+Enter` to open a terminal, then `$mod+v` or `$mod+h` (or `$mod+Shift+Enter` depending on bindings) to split, and open another terminal.
-
-Let me give the most practical answer.
-
-In i3, to split the current container into two equal halves:
-
-- **Horizontal 50/50** (side by side): `$mod+h` then open a second window  
-- **Vertical 50/50** (top/bottom): `$mod+v` then open a second window  
-
-By default, i3 gives each window in a split container equal space. If they become uneven, reset with `$mod+e` (toggle split layout) or resize manually with `$mod+r` then arrow keys.
-
-For a permanent default on a workspace, add to your i3 config:
-```
-workspace 1 layout splith
-```
-
----
-
-## User
-
 best OS and Kernel for redmi4a for fastest + best batterylife
 
 ---
